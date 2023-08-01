@@ -1,0 +1,32 @@
+/* Styles for task item */
+.task-item {
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.task-item span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Styles for task actions */
+.task-actions {
+  margin-top: 10px;
+}
+
+.task-actions button {
+  margin-right: 5px;
+}
+
+/* Style for task list container */
+#task-list {
+  margin-top: 50px;
+}
+
+
+body {
+  background-image: url("https://e0.pxfuel.com/wallpapers/780/388/desktop-wallpaper-gradient-ombre-pink-blue-purple-green-iphone-ipad-android-sam-love-background-cute-patterns-animal-print-green-and-purple-heart-thumbnail.jpg");
+  background-color: #cccccc;
+ }

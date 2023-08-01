@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title style="color: rgb(240, 242, 255)">WebProject Manager</title>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: upper;
+      height: 100vh;
+    }
+    
+    </style>
+</head>
+<body>
+  <div class="task-form">
+    <h1><table>TO-DO task-list</table></h1>
+    <h2>Add Task</h2>
+    <input type="text" id="task-input" placeholder="Enter task...">
+    <input type="date" id="deadline-input">
+    <select id="priority-select">
+      <option value="high">High Priority</option>
+      <option value="medium">Medium Priority</option>
+      <option value="low">Low Priority</option>
+    </select>
+    <input type="text" id="label-input" placeholder="Enter label...">
+    <button onclick="addTask()">Add Task</button>
+  </div>
+  
+  <div id="task-list"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
